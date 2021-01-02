@@ -1,0 +1,1 @@
+web: TEST_ENVIRONMENT=false deno run --unstable --allow-all=:${PORT} app.js ${PORT}

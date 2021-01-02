@@ -23,8 +23,6 @@ app.use(middleware.serveStaticFilesMiddleware);
 
 app.use(router.routes());
 
-if(Deno.env.get('TEST_ENVIRONMENT') === 'false'){
-    app.listen({ port: config.port });
-}
+app.listen({ port: config.port });
 
 export { app };

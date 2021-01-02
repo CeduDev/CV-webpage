@@ -14,9 +14,9 @@ if (DATABASE_URL) {
 } else {
   config.database = {
     hostname: "hattie.db.elephantsql.com",
-    database: "kjtwmzbm",
-    user: "kjtwmzbm",
-    password: "wV10WMk2gdndVySusL8eoA0jmPWvk6JR",
+    database: "tvpjwaxh",
+    user: "tvpjwaxh",
+    password: "JBb59ZPhbfcNCHqx2GCkk9QteKn-NCfQ",
     port: 5432
   };
 }

@@ -13,11 +13,11 @@ if (DATABASE_URL) {
   config.database = DATABASE_URL;
 } else {
   config.database = {
-    hostname: "hattie.db.elephantsql.com",
-    database: "tvpjwaxh",
-    user: "tvpjwaxh",
-    password: "JBb59ZPhbfcNCHqx2GCkk9QteKn-NCfQ",
-    port: 5432
+    hostname: "",
+    database: "",
+    user: "",
+    password: "",
+    port: 
   };
 }
 
